@@ -1,0 +1,13 @@
+\hfill {Pág.}\par 
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\vspace {1.5em}
+\contentsline {section}{\bfseries ABSTRACT }{1}{chapter*.1}%
+\contentsline {section}{\bfseries INTRODUCCIÓN }{2}{chapter*.2}%
+\contentsline {section}{\bfseries Presentación del tema de investigación }{2}{chapter*.2}%
+\contentsline {section}{\bfseries Descripción de la situación problemática }{2}{chapter*.2}%
+\contentsline {section}{\bfseries Formulación del problema }{2}{chapter*.2}%
+\contentsline {section}{\bfseries Objetivos de investigación }{3}{chapter*.2}%
+\contentsline {section}{\bfseries Justificación }{3}{chapter*.2}%
+\contentsline {section}{\bfseries Alcance y limitaciones / restricciones }{4}{chapter*.2}%
+\contentsline {section}{\bfseries ANEXOS}{6}{chapter*.4}%
