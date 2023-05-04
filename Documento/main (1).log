@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.18)  30 APR 2023 23:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.18)  30 APR 2023 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -644,7 +644,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] (./secciones/introduccion.tex [1
 
 
-] [2] [3] [4]) (./main.bbl [5]) [6
+] [2]) (./main.bbl [3]
+
+./main.bbl:24: LaTeX Error: Unicode character ́ (U+0301)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...tura 2022, hacia la transformación azul}
+                                                  ,'' FAO, Dirección*, tipo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+) [4
 
 ] (./main.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -656,18 +670,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 73D7142E01C959BE9C728B1DE4F92E5C;1402.
  ) 
 Here is how much of TeX's memory you used:
- 16754 strings out of 476025
- 270090 string characters out of 5790017
- 1859388 words of memory out of 5000000
- 36934 multiletter control sequences out of 15000+600000
- 519704 words of font info for 59 fonts, out of 8000000 for 9000
+ 16746 strings out of 476025
+ 269960 string characters out of 5790017
+ 1857388 words of memory out of 5000000
+ 36930 multiletter control sequences out of 15000+600000
+ 519357 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,11n,81p,925b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (8 pages, 87204 bytes).
+ 78i,12n,81p,1153b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on main.pdf (6 pages, 69023 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
  67 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,11 @@
+{
+    "cmake.configureOnOpen": true,
+    "spellright.language": [
+        "es"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
+}
