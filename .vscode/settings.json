@@ -1,6 +1,7 @@
 {
     "cmake.configureOnOpen": true,
     "spellright.language": [
+        "en",
         "es"
     ],
     "spellright.documentTypes": [

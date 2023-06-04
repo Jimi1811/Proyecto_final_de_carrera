@@ -24,6 +24,18 @@
 FAO, ``\BIBforeignlanguage{spanish}{El estado mundial de la pesca y la acuicultura 2022.}'' FAO, Roma, Tech. Rep., 2022.
 
 \bibitem{Entrevistas_Blume}
-Blume, \emph{\BIBforeignlanguage{spanish}{Keypoints de entrevistas a empresas acuícolas.}}\hskip 1em plus 0.5em minus 0.4em\relax Lima: Editor, 2023, p.~1, notas y observaciones*.
+Blume, \emph{\BIBforeignlanguage{spanish}{Keypoints de entrevistas a empresas acuícolas.}}\hskip 1em plus 0.5em minus 0.4em\relax Lima: Editor, 2023.
+
+\bibitem{AKVAgroup}
+A.~Group, ``Akva fnc8: A powerful remote net cleaning rig,'' Disponible en \url{https://www.akvagroup.com/sea-based/marine-infrastructure/net-cleaning/akva-fnc8}, 2023.
+
+\bibitem{DeepTrekker}
+D.~T. Inc., ``Aquaculture rovs for net inspections, patching, mort pushing and site selection,'' Disponible en \url{https://www.deeptrekker.com/industries/aquaculture}, 2023.
+
+\bibitem{InnovaSea}
+I.~S. Inc., ``Open ocean aquaculture,'' Disponible en \url{https://www.innovasea.com/open-ocean-aquaculture/}, 2023.
+
+\bibitem{Watbots}
+Watbots, ``Watbot cleaning robot,'' Disponible en \url{https://vimeo.com/591091267}, 2022.
 
 \end{thebibliography}
