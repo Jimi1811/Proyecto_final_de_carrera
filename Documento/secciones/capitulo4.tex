@@ -1,23 +1,29 @@
-\chapter{MARCO METODOLÓGICO}
+\chapter{MARCO METODOLÓGICO} \label{MARCO_METODOLOGICO}
 
-Inicie aquí el texto, utilizando sangría de 1.25 cm. en el primer
-párrafo. Continúe el segundo párrafo.
+Esta investigación práctica se basa en la implementación de un algoritmo que utiliza técnicas de Deep Learning, SLAM visual-inercial-presión y procesamiento de imágenes para monitorear las redes de las granjas de jaulas de salmón. A continuación, se detalla la metodología que se seguirá para cada uno de estos componentes. 
 
-Continúe el segundo párrafo
+\section{Desarrollo del algoritmo de Deep Learning}
 
-\section{Primer subtítulo}
+El primer paso en el desarrollo del algoritmo de Deep Learning será la recopilación de un conjunto de datos de imágenes de redes de granjas de jaulas de salmón para crear el dataset. Estas imágenes serán etiquetadas manualmente para indicar la ubicación de los huecos en la red. Este conjunto de datos se dividirá en un conjunto de entrenamiento y un conjunto de prueba.
 
-En la actualidad, las unidades de información hacen frente a muchos cambios
-debido a los avances tecnológicos, explosión informativa, nuevos recursos y
-soportes, por lo cual se implementan servicios innovadores que les permitan a
-sus usuarios tener acceso a muchas fuentes de información. Para asegurar el
-acceso y uso de los servicios los usuarios requieren poseer una serie de
-habilidades que les permitan identificar, recuperar, manejar, discernir,
-organizar, utilizar y comunicar la información de manera eficaz para la toma de
-decisiones.
+Para el entrenamiento del modelo de Deep Learning, se utilizará una arquitectura de red neuronal convolucional (CNN) basada en Mask CRNN presentada en \cite{cite:Zhang}. Esta arquitectura ha demostrado ser eficaz en tareas de reconocimiento de imágenes y se espera que sea capaz de identificar los huecos en las redes de las granjas de jaulas. Durante el entrenamiento, se utilizarán técnicas de aumento de datos para mejorar la robustez del modelo y evitar el sobre ajuste. 
 
-Entre las causas se pueden considerar la falta de tiempo asignado al taller,
-las limitaciones en cuanto a laboratorios, el poco personal, la falta de una
-correcta selección de los contenidos, así como, una calificación que asegure el
-cumplimiento de los objetivos.
+Una vez que el modelo haya sido entrenado y validado, se integrará en un robot submarino. Para ello, se utilizará un sistema operativo robótico (ROS 2) que permitirá la comunicación entre el modelo de Deep Learning y el hardware del robot. Este sistema permitirá que el modelo de Deep Learning procese las imágenes capturadas por una cámara en tiempo real y detecte los huecos en la red.
 
+\section{Aplicación de técnicas de procesamiento de imágenes}
+
+Para la identificación de áreas sucias en la red, se utilizarán técnicas de procesamiento de imágenes presentadas en \cite{cite:Zhao}. En primer lugar, se utilizará el método de Otsu para convertir las imágenes en escala de grises a imágenes binarias. Este método selecciona un umbral que minimiza la varianza intra clase en la imagen, lo que resulta en una segmentación efectiva de las áreas sucias y limpias de la red.
+
+Una vez que se ha obtenido la imagen binaria, se utilizará el Histograma de Gradientes Orientados (HOG) para extraer características de la imagen. El HOG es una técnica que cuenta las ocurrencias de las orientaciones de los gradientes en porciones de la imagen. Estas características serán útiles para identificar las áreas sucias de la red, ya que las áreas sucias y limpias tendrán diferentes distribuciones de orientaciones de gradientes.
+
+Finalmente, se calculará el porcentaje de suciedad en la red contando el número de píxeles en las áreas identificadas como sucias y dividiéndolo por el número total de píxeles en la imagen. Este porcentaje de suciedad será una medida cuantitativa de la limpieza de la red.
+
+\section{Aplicación de SLAM visual-inercial-presión} \label{VIP_SLAM}
+
+La realizará una simulación e implementación del SLAM visual-inercial-presión presentada en \cite{cite:Ferrera}, el cual se realizará en tres etapas. En la primera etapa, se implementará un SLAM visual utilizando una cámara monocular. Se utilizará el algoritmo de SLAM visual ORB-SLAM2 \cite{murTRO2015} y se adaptará para trabajar con las imágenes de una cámara monocular. Este algoritmo permitirá construir un mapa 3D de su entorno y localizarse dentro de este mapa. 
+
+Cabe resaltar que en \cite{cite:Ferrera} se implementó UW-VO monocular SLAM. Sin embargo, no se ha encontrado un repositorio de código abierto. Por tal motivo, dentro de la comparación que se realiza junto a otros métodos de monocular SLAM, ORB-SLAM es el segundo con menor error. 
+
+En la segunda etapa, se añadirá la información de presión al algoritmo de SLAM visual. Para ello, se utilizará un sensor de presión que se incorporará en un sistema mecatrónico junto a la cámara. La información de presión se utilizará para mejorar la estimación de la profundidad en el algoritmo de SLAM. Esto permitirá conocer su profundidad en el agua, lo que es crucial para la navegación submarina.
+
+En la tercera etapa, se añadirá la información inercial al algoritmo de SLAM. Para ello, se utilizará un IMU que se instalará al sistema mecatrónico. La información inercial se utilizará para mejorar la estimación de la orientación y la velocidad en el algoritmo de SLAM. Esto permitirá conocer su orientación y velocidad del sistema.

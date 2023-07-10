@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.18)  4 JUN 2023 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.18)  10 JUL 2023 11:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,12 +605,12 @@ Package hyperref Info: Link coloring ON on input line 40.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\includegraphics' on input line 55.
 
-<images/logo_utec.png, id=63, 803.0pt x 378.41376pt>
+<images/logo_utec.png, id=119, 803.0pt x 378.41376pt>
 File: images/logo_utec.png Graphic file (type png)
 <use images/logo_utec.png>
 Package pdftex.def Info: images/logo_utec.png  used on input line 55.
 (pdftex.def)             Requested size: 150.94196pt x 71.13188pt.
-<./images/ORCID128px.png, id=66, 128.48pt x 128.48pt>
+<./images/ORCID128px.png, id=122, 128.48pt x 128.48pt>
 File: ./images/ORCID128px.png Graphic file (type png)
 <use ./images/ORCID128px.png>
 Package pdftex.def Info: ./images/ORCID128px.png  used on input line 55.
@@ -635,80 +635,159 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [1
-
-] (./secciones/introduccion.tex [1
+ [2] (./secciones/resumen.tex) (./secciones/abstract.tex [1
 
 
-] [2] [3]) (./secciones/capitulo1.tex [4]
+]) (./secciones/introduccion.tex [2
+
+] [3
+
+] [4] [5]) (./secciones/capitulo1.tex [6]
 \MakeUppercase    []{CAPÍTULO} I.
 ------------------------------------------------------------------------------
  I REVISIÓN CRÍTICA DE LA LITERATURA
 ------------------------------------------------------------------------------
-[5
+[7
 
 ]
-<images/Qysea_1.png, id=127, 1003.75pt x 908.39375pt>
+<images/Qysea_1.png, id=210, 1003.75pt x 908.39375pt>
 File: images/Qysea_1.png Graphic file (type png)
 <use images/Qysea_1.png>
 Package pdftex.def Info: images/Qysea_1.png  used on input line 14.
 (pdftex.def)             Requested size: 94.31575pt x 85.35826pt.
-<images/AKVA_1.jpg, id=128, 249.66pt x 137.97pt>
+<images/AKVA_1.jpg, id=211, 249.66pt x 137.97pt>
 File: images/AKVA_1.jpg Graphic file (type jpg)
 <use images/AKVA_1.jpg>
 Package pdftex.def Info: images/AKVA_1.jpg  used on input line 15.
 (pdftex.def)             Requested size: 102.97078pt x 56.9055pt.
-<images/Deep_1.png, id=129, 2569.6pt x 1445.4pt>
+<images/Deep_1.png, id=212, 2569.6pt x 1445.4pt>
 File: images/Deep_1.png Graphic file (type png)
 <use images/Deep_1.png>
 Package pdftex.def Info: images/Deep_1.png  used on input line 16.
 (pdftex.def)             Requested size: 151.73839pt x 85.35826pt.
-<images/InnovaSea_1.png, id=131, 2867.71375pt x 1248.665pt>
+
+
+Package natbib Warning: Citation `Qysea' on page 8 undefined on input line 19.
+
+
+Package natbib Warning: Citation `Qysea' on page 8 undefined on input line 19.
+
+<images/InnovaSea_1.png, id=218, 2867.71375pt x 1248.665pt>
 File: images/InnovaSea_1.png Graphic file (type png)
 <use images/InnovaSea_1.png>
 Package pdftex.def Info: images/InnovaSea_1.png  used on input line 28.
 (pdftex.def)             Requested size: 261.36493pt x 113.81102pt.
- [6 <./images/Qysea_1.png> <./images/AKVA_1.jpg> <./images/Deep_1.png> <./images/InnovaSea_1.png>]) (./main.bbl [7]
-Underfull \hbox (badness 6592) in paragraph at lines 39--40
+[8 <./images/Qysea_1.png> <./images/AKVA_1.jpg> <./images/Deep_1.png> <./images/InnovaSea_1.png>] [9]
+<images/Betancourt_1.png, id=242, 1390.19376pt x 576.1525pt>
+File: images/Betancourt_1.png Graphic file (type png)
+<use images/Betancourt_1.png>
+Package pdftex.def Info: images/Betancourt_1.png  used on input line 46.
+(pdftex.def)             Requested size: 425.65245pt x 176.407pt.
+ [10 <./images/Betancourt_1.png>]
+<images/Zhao_11.png, id=255, 483.8075pt x 341.275pt>
+File: images/Zhao_11.png Graphic file (type png)
+<use images/Zhao_11.png>
+Package pdftex.def Info: images/Zhao_11.png  used on input line 58.
+(pdftex.def)             Requested size: 141.17169pt x 99.58464pt.
+<images/Zhao_12.png, id=256, 909.3975pt x 370.38374pt>
+File: images/Zhao_12.png Graphic file (type png)
+<use images/Zhao_12.png>
+Package pdftex.def Info: images/Zhao_12.png  used on input line 59.
+(pdftex.def)             Requested size: 244.4999pt x 99.58464pt.
+ [11{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./images/Zhao_11.png> <./images/Zhao_12.png>]
+<images/Zhang_1.png, id=272, 1354.05875pt x 547.04375pt>
+File: images/Zhang_1.png Graphic file (type png)
+<use images/Zhang_1.png>
+Package pdftex.def Info: images/Zhang_1.png  used on input line 71.
+(pdftex.def)             Requested size: 422.56381pt x 170.71652pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./images/Zhang_1.png>]) (./secciones/capitulo2.tex [13]
+\MakeUppercase    []{CAPÍTULO} II.
+------------------------------------------------------------------------------
+ II MARCO TEÓRICO
+------------------------------------------------------------------------------
+[14
+
+]
+<images/mask_crnn.png, id=301, 1035.87pt x 528.97626pt>
+File: images/mask_crnn.png Graphic file (type png)
+<use images/mask_crnn.png>
+Package pdftex.def Info: images/mask_crnn.png  used on input line 20.
+(pdftex.def)             Requested size: 334.29865pt x 170.71652pt.
+ [15 <./images/mask_crnn.png>] [16] [17]) (./secciones/capitulo4.tex [18]
+\MakeUppercase    []{CAPÍTULO} III.
+------------------------------------------------------------------------------
+ III MARCO METODOLÓGICO
+------------------------------------------------------------------------------
+[19
+
+]
+Overfull \hbox (4.54845pt too wide) in paragraph at lines 23--24
+[]\OT1/cmr/m/n/12 La rea-li-zar^^Sa una si-mu-la-ci^^Son e im-ple-men-ta-ci^^Son del SLAM visual-inercial-presi^^Son
+ []
+
+[20]) (./secciones/capitulo5.tex [21]
+\MakeUppercase    []{CAPÍTULO} IV.
+------------------------------------------------------------------------------
+ IV RESULTADOS PRELIMINARES
+------------------------------------------------------------------------------
+) (./main.bbl [22
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[][]$\OT1/cmr/m/n/12 https : / / www . akvagroup . com / sea-[]based / marine-[]infrastructure / net-[]cleaning /
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 39--40
 []\OT1/cmr/m/n/12 Watbots, ``Wat-bot clea-ning ro-bot,'' Dis-po-ni-ble en [][]$https : / / vimeo . com /
  []
 
-) (./secciones/anexos.tex [8
+[23
 
-] [9
+]) (./secciones/anexos.tex [24] [25
 
 ]
-<images/Empresas.png, id=166, 832.10875pt x 1510.64375pt>
+<images/Empresas.png, id=385, 832.10875pt x 1510.64375pt>
 File: images/Empresas.png Graphic file (type png)
 <use images/Empresas.png>
 Package pdftex.def Info: images/Empresas.png  used on input line 12.
 (pdftex.def)             Requested size: 297.78134pt x 540.60236pt.
-) [10 <./images/Empresas.png>] (./main.aux
+)
+
+Package natbib Warning: There were undefined citations.
+
+[26 <./images/Empresas.png>] (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 93DC824161C88510A8AED78D7BC116B1;3448.
+(rerunfilecheck)             Checksum: 5956E6BDF453A6632AD6461B9742C506;6532.
  ) 
 Here is how much of TeX's memory you used:
- 16887 strings out of 476025
- 272476 string characters out of 5790017
+ 17091 strings out of 476025
+ 276177 string characters out of 5790017
  1859388 words of memory out of 5000000
- 37028 multiletter control sequences out of 15000+600000
- 520305 words of font info for 61 fonts, out of 8000000 for 9000
+ 37165 multiletter control sequences out of 15000+600000
+ 520950 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,12n,81p,921b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (12 pages, 10733933 bytes).
+ 78i,12n,81p,1664b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (29 pages, 13679023 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 445 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
