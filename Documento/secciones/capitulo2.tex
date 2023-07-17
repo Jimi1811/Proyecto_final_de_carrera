@@ -13,7 +13,7 @@ En este proyecto, se utilizará una arquitectura de red neuronal convolucional e
 Mask R-CNN es un modelo utilizado para la detección y segmentación de objetos en imágenes. Está basado en Feature Pyramid Network (FPN) y una estructura de red neuronal ResNet101 \cite{matterport_maskrcnn_2017}. Esta técnica permite la segmentación de instancias, es decir, la identificación y clasificación de objetos individuales en una imagen. La segmentación de instancias es una tarea importante en la visión por computadora, ya que permite la identificación y clasificación de objetos individuales en una imagen. 
 
 
-Se puede dividir en 2 etapas: generación de la generación deseada (ROI), y clasificación y segmentación. La primera etapa es una arquitectura de tipo backbone CNN, donde se extrae las características (o features) de la imagen. La segunda etapa, obtiene los bounding boxes de la detección para luego extraer únicamente su forma \cite{cite:Zhang}. El output de este algoritmo se puede apreciar en la imagen \ref{fig:mask_crnn}.
+Se puede dividir en 2 etapas: generación de la región deseada (ROI), y clasificación y segmentación. La primera etapa es una arquitectura de tipo backbone CNN, donde se extrae las características (o features) de la imagen. La segunda etapa, obtiene los bounding boxes de la detección para luego extraer únicamente su forma \cite{cite:Zhang}. El output de este algoritmo se puede apreciar en la imagen \ref{fig:mask_crnn}.
 
 \begin{figure} [!h]
     \begin{center}
@@ -36,7 +36,7 @@ Feature Pyramid Networks (FPN) es una arquitectura que ha demostrado una mejora 
 La arquitectura de FPN combina características de baja resolución y alta semántica con características de alta resolución y baja semántica a través de una vía descendente y conexiones laterales. Esto resulta en una pirámide de características que tiene una fuerte semántica en todas las escalas y puede ser utilizada para reemplazar pirámides de imágenes con características sin sacrificar el poder representativo, la velocidad o la memoria. El éxito de FPN en la detección de objetos resalta la importancia de utilizar redes neuronales convolucionales profundas para construir pirámides de características que puedan detectar eficazmente objetos en diferentes escalas.
 
 
-\section{Visión por Computadora o Computer vision}
+\section{Visión por Computadora}
 
 La visión por computadora es una disciplina que se centra en enseñar a las máquinas a 'ver' e interpretar imágenes y videos de la misma manera que los humanos. En este proyecto, se utilizarán técnicas de visión por computadora para identificar áreas de la red que están sucias y estimar el porcentaje total de suciedad. Parte de las herramientas usadas son distintos procedimientos de imágenes digitales, los cuales serán explicados con información extraída de \cite{cite:Gonzalez}.
 

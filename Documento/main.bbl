@@ -39,13 +39,19 @@ I.~S. Inc., ``Open ocean aquaculture,'' Disponible en \url{https://www.innovasea
 Watbots, ``Watbot cleaning robot,'' Disponible en \url{https://vimeo.com/591091267}, 2022.
 
 \bibitem{cite:Betancourt}
-J.~Betancourt, W.~Coral, and J.~Colorado, ``An integrated rov solution for underwater net-cage inspection in fish farms using computer vision,'' \emph{SN Applied Sciences}, vol.~2, no. 1946, 2020.
+\BIBentryALTinterwordspacing
+J.~Betancourt, W.~Coral, and J.~Colorado, ``An integrated rov solution for underwater net-cage inspection in fish farms using computer vision,'' \emph{SN Applied Sciences}, vol.~2, no.~12, p. 1946, 2020. [Online]. Available: \url{https://doi.org/10.1007/s42452-020-03623-z}
+\BIBentrySTDinterwordspacing
 
 \bibitem{cite:Zhao}
-Y.-P. Zhao, L.-J. Niu, H.~Du, and C.-W. Bi, ``An adaptive method of damage detection for fishing nets based on image processing technology,'' \emph{Aquacultural Engineering}, vol. 102071, no.~90, 2020.
+\BIBentryALTinterwordspacing
+Y.-P. Zhao, L.-J. Niu, H.~Du, and C.-W. Bi, ``An adaptive method of damage detection for fishing nets based on image processing technology,'' \emph{Aquacultural Engineering}, vol.~90, p. 102071, 2020. [Online]. Available: \url{https://www.sciencedirect.com/science/article/pii/S0144860919301876}
+\BIBentrySTDinterwordspacing
 
 \bibitem{cite:Zhang}
-Z.~Zhang, F.~Gui, X.~Qu, and D.~Feng, ``Netting damage detection for marine aquaculture facilities based on improved mask r-cnn,'' \emph{Journal of Marine Science and Engineering}, vol.~10, no.~7, 2022.
+\BIBentryALTinterwordspacing
+Z.~Zhang, F.~Gui, X.~Qu, and D.~Feng, ``Netting damage detection for marine aquaculture facilities based on improved mask r-cnn,'' \emph{Journal of Marine Science and Engineering}, vol.~10, no.~7, 2022. [Online]. Available: \url{https://www.mdpi.com/2077-1312/10/7/996}
+\BIBentrySTDinterwordspacing
 
 \bibitem{cite:Ferrera}
 M.~Ferrera, ``Monocular visual-inertial-pressure fusion for underwater localization and 3d mapping,'' Université de Montpellier, Tech. Rep., 2019.

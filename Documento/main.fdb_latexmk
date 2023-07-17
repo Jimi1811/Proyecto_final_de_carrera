@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1689005502 "main.aux" "main.bbl" "main" 1689005752 0
+["bibtex main"] 1689561674 "main.aux" "main.bbl" "main" 1689561885 0
   "./IEEEtran.bst" 1682908336 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "./referencias.bib" 1688962274 9457 e8cc2103097e5e3939c9540e413929ad ""
-  "main.aux" 1689005752 10466 d8434c445e57846ce69d51b98d646697 "pdflatex"
+  "./referencias.bib" 1689545280 13046 d15beec2749f8c83ab88e3e0dc416f1e ""
+  "main.aux" 1689561884 11677 c89541aed75dc1c07a2282436611e73f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1689005749 "/Users/jim/Documents/GitHub/Proyecto_final_de_carrera/Documento/main.tex" "main.pdf" "main" 1689005752 0
+["pdflatex"] 1689561881 "/Users/jim/Documents/GitHub/Proyecto_final_de_carrera/Documento/main.tex" "main.pdf" "main" 1689561885 0
   "/Users/jim/Documents/GitHub/Proyecto_final_de_carrera/Documento/main.tex" 1689005499 2576 ca90448f503bb8f8a63f39c3d25e8fff ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -144,20 +144,26 @@
   "images/Zhang_1.png" 1687656724 470327 6729f54eb91e2ab41bd9ede5994b2349 ""
   "images/Zhao_11.png" 1685940038 207102 d923a18b68715a65dd1f81baaa8d52cb ""
   "images/Zhao_12.png" 1685940038 393339 cf4c7855ca1c2822f9e84fd74f1bd874 ""
+  "images/gazebo_1.png" 1689560712 480075 3b9f16cc68367543db399c3ab4eec7a0 ""
   "images/logo_utec.png" 1682908336 16222 e6ef075e04d942f4ae1c0ccb8f4d1ec3 ""
+  "images/malla.png" 1689560712 2431763 f96a38f440ce3a91c09bb01684b981a2 ""
   "images/mask_crnn.png" 1688957139 935327 cb9d8d774ccb8c2bf7189c3a2845230d ""
-  "main.aux" 1689005752 10466 d8434c445e57846ce69d51b98d646697 "pdflatex"
-  "main.bbl" 1689005502 4098 8b3177b8e87bb2e749e54968e54fd973 "bibtex main"
-  "main.out" 1689005752 6532 5956e6bdf453a6632ad6461b9742c506 "pdflatex"
+  "images/rqt_graph.png" 1689560712 289273 540a0510dd36d342c3f9b43bd9cf2291 ""
+  "images/rviz_1.png" 1689560712 628373 3b3076959e3c88dcec625c588d273157 ""
+  "images/rviz_2.png" 1689560712 428758 9ae73d81afc1755d679c2142bc6d6dd3 ""
+  "images/rviz_3.png" 1689560712 118217 59f19c434f76060139ed85acbf2f00b0 ""
+  "main.aux" 1689561884 11677 c89541aed75dc1c07a2282436611e73f "pdflatex"
+  "main.bbl" 1689561674 4510 a1fd0d334871de0ff7d6700a199debc0 "bibtex main"
+  "main.out" 1689561884 6425 27de0d5e3fbdfc6ac5ad22e61f9c0093 "pdflatex"
   "main.tex" 1689005499 2576 ca90448f503bb8f8a63f39c3d25e8fff ""
-  "main.toc" 1689005752 2718 819895a2a5615b0328053f55b182d045 "pdflatex"
+  "main.toc" 1689561884 2700 c8203759ca2952e19c27758c7e0b850c "pdflatex"
   "secciones/abstract.tex" 1689005749 1547 3429079098af5223e4101e88c1cdf301 ""
   "secciones/anexos.tex" 1685261841 358 9a35a3681d5a246ff714a0606d97a98e ""
   "secciones/capitulo1.tex" 1687754805 12116 9047ec94e54f331ac2cc38e12ebd1faf ""
-  "secciones/capitulo2.tex" 1688959329 7451 da4e2f226ea7e9088921e1e845662511 ""
-  "secciones/capitulo4.tex" 1688962289 4548 4bc478de0a5c6ee9576049125c47e4c5 ""
-  "secciones/capitulo5.tex" 1688961759 525 c0efac921e0917f91ef28eb7974fbbb3 ""
-  "secciones/introduccion.tex" 1688961648 7371 5ff4797663a142e3b56fc0962d085f5c ""
+  "secciones/capitulo2.tex" 1689559058 7429 2d93116218317eb1eb01f32e9531b64a ""
+  "secciones/capitulo4.tex" 1689558992 4651 346dacda38c68c7914780598cce857bc ""
+  "secciones/capitulo5.tex" 1689561877 3480 7453ec46ea4fd0cd4ec76be55bcdecfe ""
+  "secciones/introduccion.tex" 1689558991 7337 5aa090a294d663d6717dcc5f624d2f87 ""
   "secciones/resumen.tex" 1689005749 1714 4ba6a5f4e782acbc06369e3266a0dece ""
   "tesisutec.cls" 1685309616 14111 c80902e12fb1493becfc9b435ca66495 ""
   (generated)

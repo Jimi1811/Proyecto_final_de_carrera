@@ -20,9 +20,9 @@ Finalmente, se calculará el porcentaje de suciedad en la red contando el númer
 
 \section{Aplicación de SLAM visual-inercial-presión} \label{VIP_SLAM}
 
-La realizará una simulación e implementación del SLAM visual-inercial-presión presentada en \cite{cite:Ferrera}, el cual se realizará en tres etapas. En la primera etapa, se implementará un SLAM visual utilizando una cámara monocular. Se utilizará el algoritmo de SLAM visual ORB-SLAM2 \cite{murTRO2015} y se adaptará para trabajar con las imágenes de una cámara monocular. Este algoritmo permitirá construir un mapa 3D de su entorno y localizarse dentro de este mapa. 
+La realizará una simulación e implementación del SLAM visual-inercial-presión presentada en \cite{cite:Ferrera}, el cual se realizará en tres etapas. En la primera etapa, se implementará un SLAM visual utilizando una cámara monocular. Se utilizará el algoritmo de SLAM visual ORB-SLAM2 \cite{murTRO2015} y se adaptará para trabajar con las imágenes de una cámara Kinect junto a un turtlebot Waffle pi. La simulación se realizará en ROS Noetic con Gazebo y con RViz la reconstrucción. Este algoritmo permitirá construir un mapa 3D de su entorno y localizarse dentro de este mapa. 
 
-Cabe resaltar que en \cite{cite:Ferrera} se implementó UW-VO monocular SLAM. Sin embargo, no se ha encontrado un repositorio de código abierto. Por tal motivo, dentro de la comparación que se realiza junto a otros métodos de monocular SLAM, ORB-SLAM es el segundo con menor error. 
+Cabe resaltar que en \cite{cite:Ferrera} se implementó UW-VO SLAM. Sin embargo, no se ha encontrado un repositorio de código abierto. Por tal motivo, dentro de la comparación que se realiza junto a otros métodos de monocular SLAM, ORB-SLAM es el segundo con menor error. 
 
 En la segunda etapa, se añadirá la información de presión al algoritmo de SLAM visual. Para ello, se utilizará un sensor de presión que se incorporará en un sistema mecatrónico junto a la cámara. La información de presión se utilizará para mejorar la estimación de la profundidad en el algoritmo de SLAM. Esto permitirá conocer su profundidad en el agua, lo que es crucial para la navegación submarina.
 
